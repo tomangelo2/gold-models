@@ -1,6 +1,6 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.28",
+		"generator":"Khronos glTF Blender I/O v4.2.57",
 		"version":"2.0"
 	},
 	"scene":0,
@@ -15,17 +15,17 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"plant1"
+			"name":"plant0"
 		}
 	],
 	"materials":[
 		{
+			"alphaMode":"BLEND",
 			"doubleSided":true,
 			"extras":{
-				"dirt":0,
-				"transparency":1
+				"dirt":0
 			},
-			"name":"Material 1 (plant.png)",
+			"name":"Material_DoubleSideNoRecolor",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -36,7 +36,7 @@
 	],
 	"meshes":[
 		{
-			"name":"plant1",
+			"name":"plant0",
 			"primitives":[
 				{
 					"attributes":{
@@ -60,8 +60,8 @@
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"plant",
-			"uri":"plant.png"
+			"name":"objects",
+			"uri":"objects.png"
 		}
 	],
 	"accessors":[
@@ -70,14 +70,14 @@
 			"componentType":5126,
 			"count":45,
 			"max":[
-				16.84752082824707,
-				16.543153762817383,
-				14.178595542907715
+				12.279979705810547,
+				18.21363639831543,
+				13.49299430847168
 			],
 			"min":[
-				-11.569723129272461,
-				-0.015329931862652302,
-				-13.837366104125977
+				-12.547149658203125,
+				-0.014159766025841236,
+				-13.144572257995605
 			],
 			"type":"VEC3"
 		},
