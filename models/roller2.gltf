@@ -1,6 +1,6 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.28",
+		"generator":"Khronos glTF Blender I/O v4.2.57",
 		"version":"2.0"
 	},
 	"scene":0,
@@ -24,7 +24,7 @@
 				"dirt":0,
 				"tag":"tracker_right"
 			},
-			"name":"Material 1 (lemt.png).015",
+			"name":"Material 1 (lemt.png).008",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -33,16 +33,17 @@
 			}
 		},
 		{
+			"alphaMode":"BLEND",
 			"extras":{
 				"dirt":1,
-				"recolor":"team",
 				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
+					0.039000000804662704,
+					0.6510000228881836,
+					0.9959999918937683
+				],
+				"recolor":"team"
 			},
-			"name":"Material 2 (roller.png).002",
+			"name":"Material.003",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":1
@@ -53,7 +54,7 @@
 	],
 	"meshes":[
 		{
-			"name":"roller2.001",
+			"name":"roller2.003",
 			"primitives":[
 				{
 					"attributes":{
@@ -91,13 +92,13 @@
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"lemt",
-			"uri":"lemt.png"
+			"name":"animated",
+			"uri":"animated.png"
 		},
 		{
 			"mimeType":"image/png",
-			"name":"roller",
-			"uri":"roller.png"
+			"name":"objects",
+			"uri":"objects.png"
 		}
 	],
 	"accessors":[
