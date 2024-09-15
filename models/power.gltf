@@ -1,6 +1,6 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.28",
+		"generator":"Khronos glTF Blender I/O v4.2.57",
 		"version":"2.0"
 	},
 	"scene":0,
@@ -20,10 +20,17 @@
 	],
 	"materials":[
 		{
+			"alphaMode":"BLEND",
 			"extras":{
-				"dirt":1
+				"dirt":1,
+				"recolor_ref":[
+					0.039000000804662704,
+					0.6510000228881836,
+					0.9959999918937683
+				],
+				"recolor":"team"
 			},
-			"name":"Material 1 (factory.png)",
+			"name":"Material",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -85,13 +92,13 @@
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"factory",
-			"uri":"factory.png"
+			"name":"objects",
+			"uri":"objects.png"
 		},
 		{
 			"mimeType":"image/png",
-			"name":"lemt",
-			"uri":"lemt.png"
+			"name":"animated",
+			"uri":"animated.png"
 		}
 	],
 	"accessors":[
