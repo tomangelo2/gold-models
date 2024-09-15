@@ -1,6 +1,6 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.28",
+		"generator":"Khronos glTF Blender I/O v4.2.57",
 		"version":"2.0"
 	},
 	"scene":0,
@@ -20,16 +20,11 @@
 	],
 	"materials":[
 		{
+			"alphaMode":"BLEND",
 			"extras":{
-				"dirt":0,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
+				"dirt":0
 			},
-			"name":"Material 1 (vegetal.png)",
+			"name":"Material_NoDirtNoRecolor",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -64,15 +59,15 @@
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"vegetal",
-			"uri":"vegetal.png"
+			"name":"objects",
+			"uri":"objects.png"
 		}
 	],
 	"accessors":[
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":148,
+			"count":149,
 			"max":[
 				6.139313220977783,
 				14.810226440429688,
@@ -88,19 +83,19 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":148,
+			"count":149,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":148,
+			"count":149,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5126,
-			"count":148,
+			"count":149,
 			"type":"VEC2"
 		},
 		{
@@ -113,32 +108,32 @@
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":1776,
+			"byteLength":1788,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1776,
-			"byteOffset":1776,
+			"byteLength":1788,
+			"byteOffset":1788,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1184,
-			"byteOffset":3552,
+			"byteLength":1192,
+			"byteOffset":3576,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1184,
-			"byteOffset":4736,
+			"byteLength":1192,
+			"byteOffset":4768,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":450,
-			"byteOffset":5920,
+			"byteOffset":5960,
 			"target":34963
 		}
 	],
@@ -150,7 +145,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":6372,
+			"byteLength":6412,
 			"uri":"root1.bin"
 		}
 	]
