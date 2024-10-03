@@ -20,11 +20,10 @@
 	],
 	"materials":[
 		{
-			"doubleSided":true,
 			"extras":{
 				"dirt":0
 			},
-			"name":"Material_NoDirtNoRecolor.002",
+			"name":"Material_NoDirtNoRecolor.006",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -35,7 +34,7 @@
 	],
 	"meshes":[
 		{
-			"name":"human2h2.001",
+			"name":"human2h2.002",
 			"primitives":[
 				{
 					"attributes":{

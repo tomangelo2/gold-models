@@ -20,11 +20,10 @@
 	],
 	"materials":[
 		{
-			"doubleSided":true,
 			"extras":{
 				"dirt":0
 			},
-			"name":"Material 1 (human.png).001",
+			"name":"Material 1 (human.png).010",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -38,7 +37,7 @@
 			"extras":{
 				"dirt":0
 			},
-			"name":"Material_NoDirt_Transparent",
+			"name":"Material_NoDirt_Transparent.005",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":1
@@ -52,7 +51,7 @@
 				"dirt":0,
 				"tag":"band"
 			},
-			"name":"Material_NoDirtBand",
+			"name":"Material_NoDirtBand.004",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":2
@@ -66,7 +65,7 @@
 				"dirt":0,
 				"tag":"suit"
 			},
-			"name":"Material_NoDirtSuit",
+			"name":"Material_NoDirtSuit.005",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":3
@@ -77,7 +76,7 @@
 	],
 	"meshes":[
 		{
-			"name":"human2c1.004",
+			"name":"human2c1.006",
 			"primitives":[
 				{
 					"attributes":{
@@ -271,7 +270,7 @@
 		{
 			"bufferView":15,
 			"componentType":5126,
-			"count":146,
+			"count":149,
 			"max":[
 				0.8049479722976685,
 				1.7791279554367065,
@@ -287,19 +286,19 @@
 		{
 			"bufferView":16,
 			"componentType":5126,
-			"count":146,
+			"count":149,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":17,
 			"componentType":5126,
-			"count":146,
+			"count":149,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":18,
 			"componentType":5126,
-			"count":146,
+			"count":149,
 			"type":"VEC2"
 		},
 		{
@@ -402,32 +401,32 @@
 		},
 		{
 			"buffer":0,
-			"byteLength":1752,
+			"byteLength":1788,
 			"byteOffset":4384,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1752,
-			"byteOffset":6136,
+			"byteLength":1788,
+			"byteOffset":6172,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1168,
-			"byteOffset":7888,
+			"byteLength":1192,
+			"byteOffset":7960,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1168,
-			"byteOffset":9056,
+			"byteLength":1192,
+			"byteOffset":9152,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":600,
-			"byteOffset":10224,
+			"byteOffset":10344,
 			"target":34963
 		}
 	],
@@ -439,7 +438,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":10824,
+			"byteLength":10944,
 			"uri":"human2c4.bin"
 		}
 	]

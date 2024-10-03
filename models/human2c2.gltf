@@ -25,7 +25,7 @@
 			"extras":{
 				"dirt":0
 			},
-			"name":"Material_NoDirt_Transparent",
+			"name":"Material_NoDirt_Transparent.003",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -39,7 +39,7 @@
 				"dirt":0,
 				"tag":"suit"
 			},
-			"name":"Material_NoDirtSuit.001",
+			"name":"Material_NoDirtSuit.003",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":1
@@ -48,11 +48,10 @@
 			}
 		},
 		{
-			"doubleSided":true,
 			"extras":{
 				"dirt":0
 			},
-			"name":"Material_NoDirtNoRecolor.001",
+			"name":"Material_NoDirtNoRecolor.010",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":2
@@ -66,7 +65,7 @@
 				"dirt":0,
 				"tag":"band"
 			},
-			"name":"Material_NoDirtBand",
+			"name":"Material_NoDirtBand.002",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":3
@@ -77,7 +76,7 @@
 	],
 	"meshes":[
 		{
-			"name":"human2c2.001",
+			"name":"human2c2.002",
 			"primitives":[
 				{
 					"attributes":{
