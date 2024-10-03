@@ -1,6 +1,6 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.27",
+		"generator":"Khronos glTF Blender I/O v4.2.57",
 		"version":"2.0"
 	},
 	"scene":0,
@@ -21,9 +21,10 @@
 	"materials":[
 		{
 			"extras":{
-				"dirt":0
+				"dirt":0,
+				"tag":"suit"
 			},
-			"name":"Material 1 (human)",
+			"name":"Material 1 (human).003",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -41,10 +42,23 @@
 					0.996
 				]
 			},
-			"name":"Material 2 (bag)",
+			"name":"Material 2 (bag).002",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":1
+				},
+				"metallicFactor":0
+			}
+		},
+		{
+			"doubleSided":true,
+			"extras":{
+				"dirt":0
+			},
+			"name":"Material_NoDirtNoRecolor",
+			"pbrMetallicRoughness":{
+				"baseColorTexture":{
+					"index":2
 				},
 				"metallicFactor":0
 			}
@@ -52,7 +66,7 @@
 	],
 	"meshes":[
 		{
-			"name":"human1c",
+			"name":"human1c.003",
 			"primitives":[
 				{
 					"attributes":{
@@ -73,11 +87,25 @@
 					},
 					"indices":9,
 					"material":1
+				},
+				{
+					"attributes":{
+						"POSITION":10,
+						"NORMAL":11,
+						"TEXCOORD_0":12,
+						"TEXCOORD_1":13
+					},
+					"indices":14,
+					"material":2
 				}
 			]
 		}
 	],
 	"textures":[
+		{
+			"sampler":0,
+			"source":0
+		},
 		{
 			"sampler":0,
 			"source":0
@@ -98,14 +126,14 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":145,
+			"count":83,
 			"max":[
 				0.9835879802703857,
 				2.847939968109131,
 				1.4496819972991943
 			],
 			"min":[
-				-2.268527030944824,
+				-1.0164120197296143,
 				-0.5426449775695801,
 				-1.4903299808502197
 			],
@@ -114,25 +142,25 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":145,
+			"count":83,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":145,
+			"count":83,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5126,
-			"count":145,
+			"count":83,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":4,
 			"componentType":5123,
-			"count":384,
+			"count":240,
 			"type":"SCALAR"
 		},
 		{
@@ -174,67 +202,137 @@
 			"componentType":5123,
 			"count":210,
 			"type":"SCALAR"
+		},
+		{
+			"bufferView":10,
+			"componentType":5126,
+			"count":60,
+			"max":[
+				-1.2260710000991821,
+				2.6767499446868896,
+				1.3030040264129639
+			],
+			"min":[
+				-2.268527030944824,
+				0.2966510057449341,
+				-1.338763952255249
+			],
+			"type":"VEC3"
+		},
+		{
+			"bufferView":11,
+			"componentType":5126,
+			"count":60,
+			"type":"VEC3"
+		},
+		{
+			"bufferView":12,
+			"componentType":5126,
+			"count":60,
+			"type":"VEC2"
+		},
+		{
+			"bufferView":13,
+			"componentType":5126,
+			"count":60,
+			"type":"VEC2"
+		},
+		{
+			"bufferView":14,
+			"componentType":5123,
+			"count":144,
+			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":1740,
+			"byteLength":996,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1740,
-			"byteOffset":1740,
+			"byteLength":996,
+			"byteOffset":996,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1160,
-			"byteOffset":3480,
+			"byteLength":664,
+			"byteOffset":1992,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1160,
-			"byteOffset":4640,
+			"byteLength":664,
+			"byteOffset":2656,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":768,
-			"byteOffset":5800,
+			"byteLength":480,
+			"byteOffset":3320,
 			"target":34963
 		},
 		{
 			"buffer":0,
 			"byteLength":1404,
-			"byteOffset":6568,
+			"byteOffset":3800,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":1404,
-			"byteOffset":7972,
+			"byteOffset":5204,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":936,
-			"byteOffset":9376,
+			"byteOffset":6608,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":936,
-			"byteOffset":10312,
+			"byteOffset":7544,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":420,
-			"byteOffset":11248,
+			"byteOffset":8480,
+			"target":34963
+		},
+		{
+			"buffer":0,
+			"byteLength":720,
+			"byteOffset":8900,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":720,
+			"byteOffset":9620,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":480,
+			"byteOffset":10340,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":480,
+			"byteOffset":10820,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":288,
+			"byteOffset":11300,
 			"target":34963
 		}
 	],
@@ -246,7 +344,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":11668,
+			"byteLength":11588,
 			"uri":"human1c.bin"
 		}
 	]

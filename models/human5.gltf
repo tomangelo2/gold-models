@@ -1,6 +1,6 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.28",
+		"generator":"Khronos glTF Blender I/O v4.2.57",
 		"version":"2.0"
 	},
 	"scene":0,
@@ -20,16 +20,12 @@
 	],
 	"materials":[
 		{
+			"doubleSided":true,
 			"extras":{
 				"dirt":0,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
+				"tag":"suit"
 			},
-			"name":"Material 1 (human.png)",
+			"name":"Material_NoDirtSuit",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -40,7 +36,7 @@
 	],
 	"meshes":[
 		{
-			"name":"human5",
+			"name":"human5.001",
 			"primitives":[
 				{
 					"attributes":{
@@ -64,15 +60,15 @@
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"human",
-			"uri":"human.png"
+			"name":"objects",
+			"uri":"objects.png"
 		}
 	],
 	"accessors":[
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":71,
+			"count":72,
 			"max":[
 				0.9624459743499756,
 				0.5161629915237427,
@@ -88,19 +84,19 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":71,
+			"count":72,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":71,
+			"count":72,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5126,
-			"count":71,
+			"count":72,
 			"type":"VEC2"
 		},
 		{
@@ -113,32 +109,32 @@
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":852,
+			"byteLength":864,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":852,
-			"byteOffset":852,
+			"byteLength":864,
+			"byteOffset":864,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":568,
-			"byteOffset":1704,
+			"byteLength":576,
+			"byteOffset":1728,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":568,
-			"byteOffset":2272,
+			"byteLength":576,
+			"byteOffset":2304,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":204,
-			"byteOffset":2840,
+			"byteOffset":2880,
 			"target":34963
 		}
 	],
@@ -150,7 +146,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":3044,
+			"byteLength":3084,
 			"uri":"human5.bin"
 		}
 	]

@@ -1,6 +1,6 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.28",
+		"generator":"Khronos glTF Blender I/O v4.2.57",
 		"version":"2.0"
 	},
 	"scene":0,
@@ -20,10 +20,12 @@
 	],
 	"materials":[
 		{
+			"doubleSided":true,
 			"extras":{
-				"dirt":0
+				"dirt":0,
+				"tag":"suit"
 			},
-			"name":"Material 1 (human.png).009",
+			"name":"Material_NoDirtSuit",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -58,8 +60,8 @@
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"human",
-			"uri":"human.png"
+			"name":"objects",
+			"uri":"objects.png"
 		}
 	],
 	"accessors":[

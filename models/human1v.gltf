@@ -1,6 +1,6 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.27",
+		"generator":"Khronos glTF Blender I/O v4.2.57",
 		"version":"2.0"
 	},
 	"scene":0,
@@ -21,9 +21,10 @@
 	"materials":[
 		{
 			"extras":{
-				"dirt":0
+				"dirt":0,
+				"tag":"suit"
 			},
-			"name":"Material 1 (human)",
+			"name":"Material 1 (human).002",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0

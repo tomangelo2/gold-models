@@ -1,6 +1,6 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.28",
+		"generator":"Khronos glTF Blender I/O v4.2.57",
 		"version":"2.0"
 	},
 	"scene":0,
@@ -22,14 +22,9 @@
 		{
 			"extras":{
 				"dirt":0,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
+				"tag":"suit"
 			},
-			"name":"Material 1 (human.png)",
+			"name":"Material 1 (human.png).007",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
 					0.30000001192092896,
@@ -44,16 +39,12 @@
 			}
 		},
 		{
+			"doubleSided":true,
 			"extras":{
 				"dirt":0,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
+				"tag":"suit"
 			},
-			"name":"Material 2 (human.png)",
+			"name":"Material_NoDirtSuit",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":1
@@ -64,7 +55,7 @@
 	],
 	"meshes":[
 		{
-			"name":"human8",
+			"name":"human8.001",
 			"primitives":[
 				{
 					"attributes":{
@@ -102,8 +93,8 @@
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"human",
-			"uri":"human.png"
+			"name":"objects",
+			"uri":"objects.png"
 		}
 	],
 	"accessors":[
