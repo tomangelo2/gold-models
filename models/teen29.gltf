@@ -1,11 +1,18 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.28",
+		"generator":"Khronos glTF Blender I/O v4.1.63",
 		"version":"2.0"
 	},
 	"scene":0,
 	"scenes":[
 		{
+			"extras":{
+				"bc":{
+					"snap":{
+						"hit":false
+					}
+				}
+			},
 			"name":"Scene",
 			"nodes":[
 				0
@@ -14,6 +21,9 @@
 	],
 	"nodes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"mesh":0,
 			"name":"teen29"
 		}
@@ -21,15 +31,9 @@
 	"materials":[
 		{
 			"extras":{
-				"dirt":1,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
+				"dirt":1
 			},
-			"name":"Material 1 (kid2.png)",
+			"name":"teen29",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -40,6 +44,9 @@
 	],
 	"meshes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"name":"teen29",
 			"primitives":[
 				{
@@ -64,8 +71,8 @@
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"kid2",
-			"uri":"kid2.png"
+			"name":"objects",
+			"uri":"objects.png"
 		}
 	],
 	"accessors":[

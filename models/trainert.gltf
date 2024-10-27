@@ -1,11 +1,18 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.28",
+		"generator":"Khronos glTF Blender I/O v4.1.63",
 		"version":"2.0"
 	},
 	"scene":0,
 	"scenes":[
 		{
+			"extras":{
+				"bc":{
+					"snap":{
+						"hit":false
+					}
+				}
+			},
 			"name":"Scene",
 			"nodes":[
 				0
@@ -14,6 +21,9 @@
 	],
 	"nodes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"mesh":0,
 			"name":"trainert"
 		}
@@ -21,15 +31,9 @@
 	"materials":[
 		{
 			"extras":{
-				"dirt":1,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
+				"dirt":1
 			},
-			"name":"Material 1 (lemt.png)",
+			"name":"trainert",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
 					0,
@@ -45,15 +49,9 @@
 		},
 		{
 			"extras":{
-				"dirt":1,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
+				"dirt":1
 			},
-			"name":"Material 2 (lemt.png)",
+			"name":"trainert 2",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
 					0.30000001192092896,
@@ -69,15 +67,9 @@
 		},
 		{
 			"extras":{
-				"dirt":1,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
+				"dirt":1
 			},
-			"name":"Material 3 (lemt.png)",
+			"name":"trainert 3",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":2
@@ -88,6 +80,9 @@
 	],
 	"meshes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"name":"trainert",
 			"primitives":[
 				{
@@ -140,8 +135,8 @@
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"lemt",
-			"uri":"lemt.png"
+			"name":"objects",
+			"uri":"objects.png"
 		}
 	],
 	"accessors":[
@@ -188,7 +183,7 @@
 		{
 			"bufferView":5,
 			"componentType":5126,
-			"count":10,
+			"count":12,
 			"max":[
 				3.3507299423217773,
 				2.2453670501708984,
@@ -204,19 +199,19 @@
 		{
 			"bufferView":6,
 			"componentType":5126,
-			"count":10,
+			"count":12,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":7,
 			"componentType":5126,
-			"count":10,
+			"count":12,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":8,
 			"componentType":5126,
-			"count":10,
+			"count":12,
 			"type":"VEC2"
 		},
 		{
@@ -299,62 +294,62 @@
 		},
 		{
 			"buffer":0,
-			"byteLength":120,
+			"byteLength":144,
 			"byteOffset":1548,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":120,
-			"byteOffset":1668,
+			"byteLength":144,
+			"byteOffset":1692,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":80,
-			"byteOffset":1788,
+			"byteLength":96,
+			"byteOffset":1836,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":80,
-			"byteOffset":1868,
+			"byteLength":96,
+			"byteOffset":1932,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":24,
-			"byteOffset":1948,
+			"byteOffset":2028,
 			"target":34963
 		},
 		{
 			"buffer":0,
 			"byteLength":240,
-			"byteOffset":1972,
+			"byteOffset":2052,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":240,
-			"byteOffset":2212,
+			"byteOffset":2292,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":160,
-			"byteOffset":2452,
+			"byteOffset":2532,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":160,
-			"byteOffset":2612,
+			"byteOffset":2692,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":60,
-			"byteOffset":2772,
+			"byteOffset":2852,
 			"target":34963
 		}
 	],
@@ -366,7 +361,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":2832,
+			"byteLength":2912,
 			"uri":"trainert.bin"
 		}
 	]

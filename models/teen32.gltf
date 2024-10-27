@@ -1,11 +1,18 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.28",
+		"generator":"Khronos glTF Blender I/O v4.1.63",
 		"version":"2.0"
 	},
 	"scene":0,
 	"scenes":[
 		{
+			"extras":{
+				"bc":{
+					"snap":{
+						"hit":false
+					}
+				}
+			},
 			"name":"Scene",
 			"nodes":[
 				0
@@ -14,6 +21,9 @@
 	],
 	"nodes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"mesh":0,
 			"name":"teen32"
 		}
@@ -21,36 +31,12 @@
 	"materials":[
 		{
 			"extras":{
-				"dirt":0,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
+				"dirt":0
 			},
-			"name":"Material 1 (kid3.png)",
+			"name":"teen32",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
-				},
-				"metallicFactor":0
-			}
-		},
-		{
-			"extras":{
-				"dirt":1,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
-			},
-			"name":"Material 2 (kid3.png)",
-			"pbrMetallicRoughness":{
-				"baseColorTexture":{
-					"index":1
 				},
 				"metallicFactor":0
 			}
@@ -58,6 +44,9 @@
 	],
 	"meshes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"name":"teen32",
 			"primitives":[
 				{
@@ -69,16 +58,6 @@
 					},
 					"indices":4,
 					"material":0
-				},
-				{
-					"attributes":{
-						"POSITION":5,
-						"NORMAL":6,
-						"TEXCOORD_0":7,
-						"TEXCOORD_1":8
-					},
-					"indices":9,
-					"material":1
 				}
 			]
 		}
@@ -87,32 +66,28 @@
 		{
 			"sampler":0,
 			"source":0
-		},
-		{
-			"sampler":0,
-			"source":0
 		}
 	],
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"kid3",
-			"uri":"kid3.png"
+			"name":"objects",
+			"uri":"objects.png"
 		}
 	],
 	"accessors":[
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":204,
+			"count":554,
 			"max":[
 				23,
 				78,
 				20.655899047851562
 			],
 			"min":[
-				-20,
-				39.96580123901367,
+				-29,
+				0,
 				-20.657014846801758
 			],
 			"type":"VEC3"
@@ -120,127 +95,57 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":204,
+			"count":554,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":204,
+			"count":554,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5126,
-			"count":204,
+			"count":554,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":4,
 			"componentType":5123,
-			"count":948,
-			"type":"SCALAR"
-		},
-		{
-			"bufferView":5,
-			"componentType":5126,
-			"count":350,
-			"max":[
-				20,
-				69,
-				20
-			],
-			"min":[
-				-29,
-				0,
-				-20
-			],
-			"type":"VEC3"
-		},
-		{
-			"bufferView":6,
-			"componentType":5126,
-			"count":350,
-			"type":"VEC3"
-		},
-		{
-			"bufferView":7,
-			"componentType":5126,
-			"count":350,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":8,
-			"componentType":5126,
-			"count":350,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":9,
-			"componentType":5123,
-			"count":660,
+			"count":1608,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":2448,
+			"byteLength":6648,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":2448,
-			"byteOffset":2448,
+			"byteLength":6648,
+			"byteOffset":6648,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1632,
-			"byteOffset":4896,
+			"byteLength":4432,
+			"byteOffset":13296,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1632,
-			"byteOffset":6528,
+			"byteLength":4432,
+			"byteOffset":17728,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1896,
-			"byteOffset":8160,
-			"target":34963
-		},
-		{
-			"buffer":0,
-			"byteLength":4200,
-			"byteOffset":10056,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":4200,
-			"byteOffset":14256,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":2800,
-			"byteOffset":18456,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":2800,
-			"byteOffset":21256,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":1320,
-			"byteOffset":24056,
+			"byteLength":3216,
+			"byteOffset":22160,
 			"target":34963
 		}
 	],

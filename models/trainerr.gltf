@@ -1,11 +1,18 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.28",
+		"generator":"Khronos glTF Blender I/O v4.1.63",
 		"version":"2.0"
 	},
 	"scene":0,
 	"scenes":[
 		{
+			"extras":{
+				"bc":{
+					"snap":{
+						"hit":false
+					}
+				}
+			},
 			"name":"Scene",
 			"nodes":[
 				0
@@ -14,6 +21,9 @@
 	],
 	"nodes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"mesh":0,
 			"name":"trainerr"
 		}
@@ -29,7 +39,7 @@
 					0.996
 				]
 			},
-			"name":"Material 1 (rollert.png)",
+			"name":"trainerr",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -47,7 +57,7 @@
 					0.996
 				]
 			},
-			"name":"Material 2 (rollert.png)",
+			"name":"trainerr 2",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
 					0.30054399371147156,
@@ -71,7 +81,7 @@
 					0.996
 				]
 			},
-			"name":"Material 3 (rollert.png)",
+			"name":"trainerr 3",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
 					0,
@@ -88,6 +98,9 @@
 	],
 	"meshes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"name":"trainerr",
 			"primitives":[
 				{
@@ -140,8 +153,8 @@
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"rollert",
-			"uri":"rollert.png"
+			"name":"objects",
+			"uri":"objects.png"
 		}
 	],
 	"accessors":[
@@ -228,7 +241,7 @@
 		{
 			"bufferView":10,
 			"componentType":5126,
-			"count":36,
+			"count":44,
 			"max":[
 				3.8219499588012695,
 				3.5500001907348633,
@@ -244,19 +257,19 @@
 		{
 			"bufferView":11,
 			"componentType":5126,
-			"count":36,
+			"count":44,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":12,
 			"componentType":5126,
-			"count":36,
+			"count":44,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":13,
 			"componentType":5126,
-			"count":36,
+			"count":44,
 			"type":"VEC2"
 		},
 		{
@@ -329,32 +342,32 @@
 		},
 		{
 			"buffer":0,
-			"byteLength":432,
+			"byteLength":528,
 			"byteOffset":6572,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":432,
-			"byteOffset":7004,
+			"byteLength":528,
+			"byteOffset":7100,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":288,
-			"byteOffset":7436,
+			"byteLength":352,
+			"byteOffset":7628,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":288,
-			"byteOffset":7724,
+			"byteLength":352,
+			"byteOffset":7980,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":108,
-			"byteOffset":8012,
+			"byteOffset":8332,
 			"target":34963
 		}
 	],
@@ -366,7 +379,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":8120,
+			"byteLength":8440,
 			"uri":"trainerr.bin"
 		}
 	]

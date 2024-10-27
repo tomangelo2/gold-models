@@ -1,11 +1,18 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.28",
+		"generator":"Khronos glTF Blender I/O v4.1.63",
 		"version":"2.0"
 	},
 	"scene":0,
 	"scenes":[
 		{
+			"extras":{
+				"bc":{
+					"snap":{
+						"hit":false
+					}
+				}
+			},
 			"name":"Scene",
 			"nodes":[
 				0
@@ -14,6 +21,9 @@
 	],
 	"nodes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"mesh":0,
 			"name":"subm4"
 		}
@@ -24,7 +34,7 @@
 				"dirt":0,
 				"tag":"tracker_right"
 			},
-			"name":"Material 1 (lemt.png).019",
+			"name":"subm4",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -42,7 +52,7 @@
 					0.996
 				]
 			},
-			"name":"Material 2 (subm.png)",
+			"name":"subm4 2",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":1
@@ -53,6 +63,9 @@
 	],
 	"meshes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"name":"subm4",
 			"primitives":[
 				{
@@ -91,20 +104,20 @@
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"lemt",
-			"uri":"lemt.png"
+			"name":"animated",
+			"uri":"animated.png"
 		},
 		{
 			"mimeType":"image/png",
-			"name":"subm",
-			"uri":"subm.png"
+			"name":"objects",
+			"uri":"objects.png"
 		}
 	],
 	"accessors":[
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":44,
+			"count":48,
 			"max":[
 				3.98799204826355,
 				1.001823902130127,
@@ -120,19 +133,19 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":44,
+			"count":48,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":44,
+			"count":48,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5126,
-			"count":44,
+			"count":48,
 			"type":"VEC2"
 		},
 		{
@@ -185,62 +198,62 @@
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":528,
+			"byteLength":576,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":528,
-			"byteOffset":528,
+			"byteLength":576,
+			"byteOffset":576,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":352,
-			"byteOffset":1056,
+			"byteLength":384,
+			"byteOffset":1152,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":352,
-			"byteOffset":1408,
+			"byteLength":384,
+			"byteOffset":1536,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":144,
-			"byteOffset":1760,
+			"byteOffset":1920,
 			"target":34963
 		},
 		{
 			"buffer":0,
 			"byteLength":288,
-			"byteOffset":1904,
+			"byteOffset":2064,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":288,
-			"byteOffset":2192,
+			"byteOffset":2352,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":192,
-			"byteOffset":2480,
+			"byteOffset":2640,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":192,
-			"byteOffset":2672,
+			"byteOffset":2832,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":120,
-			"byteOffset":2864,
+			"byteOffset":3024,
 			"target":34963
 		}
 	],
@@ -252,7 +265,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":2984,
+			"byteLength":3144,
 			"uri":"subm4.bin"
 		}
 	]

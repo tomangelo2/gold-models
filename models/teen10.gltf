@@ -1,11 +1,24 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.28",
+		"generator":"Khronos glTF Blender I/O v4.2.60",
 		"version":"2.0"
 	},
+	"extensionsUsed":[
+		"KHR_materials_clearcoat"
+	],
 	"scene":0,
 	"scenes":[
 		{
+			"extras":{
+				"bc":{
+					"snap":{
+						"hit":false
+					},
+					"running":0,
+					"collection":null,
+					"shape":null
+				}
+			},
 			"name":"Scene",
 			"nodes":[
 				0
@@ -14,61 +27,24 @@
 	],
 	"nodes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"mesh":0,
 			"name":"teen10"
 		}
 	],
 	"materials":[
 		{
-			"extras":{
-				"dirt":0,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
+			"extensions":{
+				"KHR_materials_clearcoat":{
+					"clearcoatRoughnessFactor":0
+				}
 			},
-			"name":"Material 1 (kid.png)",
+			"name":"teen10",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
-				},
-				"metallicFactor":0
-			}
-		},
-		{
-			"extras":{
-				"dirt":0,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
-			},
-			"name":"Material 2 (drawer.png)",
-			"pbrMetallicRoughness":{
-				"baseColorTexture":{
-					"index":1
-				},
-				"metallicFactor":0
-			}
-		},
-		{
-			"extras":{
-				"dirt":1,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
-			},
-			"name":"Material 3 (drawer.png)",
-			"pbrMetallicRoughness":{
-				"baseColorTexture":{
-					"index":2
 				},
 				"metallicFactor":0
 			}
@@ -76,6 +52,9 @@
 	],
 	"meshes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"name":"teen10",
 			"primitives":[
 				{
@@ -87,26 +66,6 @@
 					},
 					"indices":4,
 					"material":0
-				},
-				{
-					"attributes":{
-						"POSITION":5,
-						"NORMAL":6,
-						"TEXCOORD_0":7,
-						"TEXCOORD_1":8
-					},
-					"indices":9,
-					"material":1
-				},
-				{
-					"attributes":{
-						"POSITION":10,
-						"NORMAL":11,
-						"TEXCOORD_0":12,
-						"TEXCOORD_1":13
-					},
-					"indices":14,
-					"material":2
 				}
 			]
 		}
@@ -115,40 +74,27 @@
 		{
 			"sampler":0,
 			"source":0
-		},
-		{
-			"sampler":0,
-			"source":1
-		},
-		{
-			"sampler":0,
-			"source":1
 		}
 	],
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"kid",
-			"uri":"kid.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"drawer",
-			"uri":"drawer.png"
+			"name":"objects",
+			"uri":"objects.png"
 		}
 	],
 	"accessors":[
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":495,
+			"count":677,
 			"max":[
-				18.909292221069336,
+				29,
 				24.979785919189453,
 				9.847841262817383
 			],
 			"min":[
-				-20.54591178894043,
+				-31,
 				-0.035718001425266266,
 				-10.458011627197266
 			],
@@ -157,197 +103,57 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":495,
+			"count":677,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":495,
+			"count":677,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5126,
-			"count":495,
+			"count":677,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":4,
 			"componentType":5123,
-			"count":918,
-			"type":"SCALAR"
-		},
-		{
-			"bufferView":5,
-			"componentType":5126,
-			"count":4,
-			"max":[
-				-21,
-				14,
-				5
-			],
-			"min":[
-				-21,
-				0,
-				-5
-			],
-			"type":"VEC3"
-		},
-		{
-			"bufferView":6,
-			"componentType":5126,
-			"count":4,
-			"type":"VEC3"
-		},
-		{
-			"bufferView":7,
-			"componentType":5126,
-			"count":4,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":8,
-			"componentType":5126,
-			"count":4,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":9,
-			"componentType":5123,
-			"count":6,
-			"type":"SCALAR"
-		},
-		{
-			"bufferView":10,
-			"componentType":5126,
-			"count":174,
-			"max":[
-				29,
-				14,
-				5
-			],
-			"min":[
-				-31,
-				0,
-				-5
-			],
-			"type":"VEC3"
-		},
-		{
-			"bufferView":11,
-			"componentType":5126,
-			"count":174,
-			"type":"VEC3"
-		},
-		{
-			"bufferView":12,
-			"componentType":5126,
-			"count":174,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":13,
-			"componentType":5126,
-			"count":174,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":14,
-			"componentType":5123,
-			"count":222,
+			"count":1146,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":5940,
+			"byteLength":8124,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":5940,
-			"byteOffset":5940,
+			"byteLength":8124,
+			"byteOffset":8124,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":3960,
-			"byteOffset":11880,
+			"byteLength":5416,
+			"byteOffset":16248,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":3960,
-			"byteOffset":15840,
+			"byteLength":5416,
+			"byteOffset":21664,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1836,
-			"byteOffset":19800,
-			"target":34963
-		},
-		{
-			"buffer":0,
-			"byteLength":48,
-			"byteOffset":21636,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":48,
-			"byteOffset":21684,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":32,
-			"byteOffset":21732,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":32,
-			"byteOffset":21764,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":12,
-			"byteOffset":21796,
-			"target":34963
-		},
-		{
-			"buffer":0,
-			"byteLength":2088,
-			"byteOffset":21808,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":2088,
-			"byteOffset":23896,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":1392,
-			"byteOffset":25984,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":1392,
-			"byteOffset":27376,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":444,
-			"byteOffset":28768,
+			"byteLength":2292,
+			"byteOffset":27080,
 			"target":34963
 		}
 	],
@@ -359,7 +165,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":29212,
+			"byteLength":29372,
 			"uri":"teen10.bin"
 		}
 	]

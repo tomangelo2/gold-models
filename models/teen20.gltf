@@ -1,11 +1,24 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.28",
+		"generator":"Khronos glTF Blender I/O v4.2.60",
 		"version":"2.0"
 	},
+	"extensionsUsed":[
+		"KHR_materials_clearcoat"
+	],
 	"scene":0,
 	"scenes":[
 		{
+			"extras":{
+				"bc":{
+					"snap":{
+						"hit":false
+					},
+					"running":0,
+					"collection":null,
+					"shape":null
+				}
+			},
 			"name":"Scene",
 			"nodes":[
 				0
@@ -14,22 +27,25 @@
 	],
 	"nodes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"mesh":0,
 			"name":"teen20"
 		}
 	],
 	"materials":[
 		{
-			"extras":{
-				"dirt":1,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
+			"doubleSided":true,
+			"extensions":{
+				"KHR_materials_clearcoat":{
+					"clearcoatRoughnessFactor":0
+				}
 			},
-			"name":"Material 1 (kid2.png)",
+			"extras":{
+				"dirt":1
+			},
+			"name":"teen20",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -38,16 +54,16 @@
 			}
 		},
 		{
-			"extras":{
-				"dirt":9,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
+			"doubleSided":true,
+			"extensions":{
+				"KHR_materials_clearcoat":{
+					"clearcoatRoughnessFactor":0
+				}
 			},
-			"name":"Material 2 (cellar01.png)",
+			"extras":{
+				"dirt":9
+			},
+			"name":"teen20 2",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":1
@@ -58,6 +74,9 @@
 	],
 	"meshes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"name":"teen20",
 			"primitives":[
 				{
@@ -90,19 +109,14 @@
 		},
 		{
 			"sampler":0,
-			"source":1
+			"source":0
 		}
 	],
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"kid2",
-			"uri":"kid2.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"cellar01",
-			"uri":"cellar01.png"
+			"name":"objects",
+			"uri":"objects.png"
 		}
 	],
 	"accessors":[
@@ -153,12 +167,12 @@
 			"max":[
 				200,
 				240,
-				7.999999979801942e-06
+				-2.1155762672424316
 			],
 			"min":[
 				-200,
 				0,
-				0
+				-2.115584373474121
 			],
 			"type":"VEC3"
 		},

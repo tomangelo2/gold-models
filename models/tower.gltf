@@ -1,11 +1,21 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.28",
+		"generator":"Khronos glTF Blender I/O v4.2.57",
 		"version":"2.0"
 	},
+	"extensionsUsed":[
+		"KHR_materials_clearcoat"
+	],
 	"scene":0,
 	"scenes":[
 		{
+			"extras":{
+				"bc":{
+					"snap":{
+						"hit":false
+					}
+				}
+			},
 			"name":"Scene",
 			"nodes":[
 				0
@@ -14,12 +24,20 @@
 	],
 	"nodes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"mesh":0,
 			"name":"tower"
 		}
 	],
 	"materials":[
 		{
+			"extensions":{
+				"KHR_materials_clearcoat":{
+					"clearcoatRoughnessFactor":0
+				}
+			},
 			"extras":{
 				"dirt":1,
 				"recolor":"team",
@@ -29,46 +47,10 @@
 					0.996
 				]
 			},
-			"name":"Material 1 (lemt.png)",
+			"name":"tower 2",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
-				},
-				"metallicFactor":0
-			}
-		},
-		{
-			"extras":{
-				"dirt":1,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
-			},
-			"name":"Material 2 (derrick.png)",
-			"pbrMetallicRoughness":{
-				"baseColorTexture":{
-					"index":1
-				},
-				"metallicFactor":0
-			}
-		},
-		{
-			"extras":{
-				"dirt":1,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
-			},
-			"name":"Material 3 (factory.png)",
-			"pbrMetallicRoughness":{
-				"baseColorTexture":{
-					"index":2
 				},
 				"metallicFactor":0
 			}
@@ -76,7 +58,10 @@
 	],
 	"meshes":[
 		{
-			"name":"tower",
+			"extras":{
+				"hops":{}
+			},
+			"name":"tower.001",
 			"primitives":[
 				{
 					"attributes":{
@@ -87,26 +72,6 @@
 					},
 					"indices":4,
 					"material":0
-				},
-				{
-					"attributes":{
-						"POSITION":5,
-						"NORMAL":6,
-						"TEXCOORD_0":7,
-						"TEXCOORD_1":8
-					},
-					"indices":9,
-					"material":1
-				},
-				{
-					"attributes":{
-						"POSITION":10,
-						"NORMAL":11,
-						"TEXCOORD_0":12,
-						"TEXCOORD_1":13
-					},
-					"indices":14,
-					"material":2
 				}
 			]
 		}
@@ -115,38 +80,20 @@
 		{
 			"sampler":0,
 			"source":0
-		},
-		{
-			"sampler":0,
-			"source":1
-		},
-		{
-			"sampler":0,
-			"source":2
 		}
 	],
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"lemt",
-			"uri":"lemt.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"derrick",
-			"uri":"derrick.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"factory",
-			"uri":"factory.png"
+			"name":"objects",
+			"uri":"objects.png"
 		}
 	],
 	"accessors":[
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":98,
+			"count":148,
 			"max":[
 				6.990612030029297,
 				19.967294692993164,
@@ -154,7 +101,7 @@
 			],
 			"min":[
 				-7.009387969970703,
-				-0.9998700022697449,
+				-1,
 				-7
 			],
 			"type":"VEC3"
@@ -162,197 +109,57 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":98,
+			"count":148,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":98,
+			"count":148,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5126,
-			"count":98,
+			"count":148,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":4,
 			"componentType":5123,
-			"count":132,
-			"type":"SCALAR"
-		},
-		{
-			"bufferView":5,
-			"componentType":5126,
-			"count":32,
-			"max":[
-				4.001634120941162,
-				19.967294692993164,
-				4
-			],
-			"min":[
-				-4,
-				-1,
-				-4
-			],
-			"type":"VEC3"
-		},
-		{
-			"bufferView":6,
-			"componentType":5126,
-			"count":32,
-			"type":"VEC3"
-		},
-		{
-			"bufferView":7,
-			"componentType":5126,
-			"count":32,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":8,
-			"componentType":5126,
-			"count":32,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":9,
-			"componentType":5123,
-			"count":48,
-			"type":"SCALAR"
-		},
-		{
-			"bufferView":10,
-			"componentType":5126,
-			"count":16,
-			"max":[
-				6.22726583480835,
-				2.9990971088409424,
-				1.2714380025863647
-			],
-			"min":[
-				3.7272660732269287,
-				2.4990971088409424,
-				-1.2285619974136353
-			],
-			"type":"VEC3"
-		},
-		{
-			"bufferView":11,
-			"componentType":5126,
-			"count":16,
-			"type":"VEC3"
-		},
-		{
-			"bufferView":12,
-			"componentType":5126,
-			"count":16,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":13,
-			"componentType":5126,
-			"count":16,
-			"type":"VEC2"
-		},
-		{
-			"bufferView":14,
-			"componentType":5123,
-			"count":24,
+			"count":204,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":1176,
+			"byteLength":1776,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1176,
-			"byteOffset":1176,
+			"byteLength":1776,
+			"byteOffset":1776,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":784,
-			"byteOffset":2352,
+			"byteLength":1184,
+			"byteOffset":3552,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":784,
-			"byteOffset":3136,
+			"byteLength":1184,
+			"byteOffset":4736,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":264,
-			"byteOffset":3920,
-			"target":34963
-		},
-		{
-			"buffer":0,
-			"byteLength":384,
-			"byteOffset":4184,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":384,
-			"byteOffset":4568,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":256,
-			"byteOffset":4952,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":256,
-			"byteOffset":5208,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":96,
-			"byteOffset":5464,
-			"target":34963
-		},
-		{
-			"buffer":0,
-			"byteLength":192,
-			"byteOffset":5560,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":192,
-			"byteOffset":5752,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":128,
-			"byteOffset":5944,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":128,
-			"byteOffset":6072,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":48,
-			"byteOffset":6200,
+			"byteLength":408,
+			"byteOffset":5920,
 			"target":34963
 		}
 	],
@@ -364,7 +171,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":6248,
+			"byteLength":6328,
 			"uri":"tower.bin"
 		}
 	]

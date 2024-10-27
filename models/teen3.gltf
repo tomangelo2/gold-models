@@ -1,11 +1,18 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.28",
+		"generator":"Khronos glTF Blender I/O v4.1.63",
 		"version":"2.0"
 	},
 	"scene":0,
 	"scenes":[
 		{
+			"extras":{
+				"bc":{
+					"snap":{
+						"hit":false
+					}
+				}
+			},
 			"name":"Scene",
 			"nodes":[
 				0
@@ -14,6 +21,9 @@
 	],
 	"nodes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"mesh":0,
 			"name":"teen3"
 		}
@@ -21,15 +31,9 @@
 	"materials":[
 		{
 			"extras":{
-				"dirt":1,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
+				"dirt":1
 			},
-			"name":"Material 1 (drawer.png)",
+			"name":"teen3",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -39,16 +43,7 @@
 		},
 		{
 			"doubleSided":true,
-			"extras":{
-				"dirt":0,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
-			},
-			"name":"Material 2 (drawer.png)",
+			"name":"teen3 2",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":1
@@ -59,6 +54,9 @@
 	],
 	"meshes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"name":"teen3",
 			"primitives":[
 				{
@@ -97,8 +95,8 @@
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"drawer",
-			"uri":"drawer.png"
+			"name":"objects",
+			"uri":"objects.png"
 		}
 	],
 	"accessors":[

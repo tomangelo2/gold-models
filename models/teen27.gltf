@@ -1,11 +1,21 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.28",
+		"generator":"Khronos glTF Blender I/O v4.2.60",
 		"version":"2.0"
 	},
 	"scene":0,
 	"scenes":[
 		{
+			"extras":{
+				"bc":{
+					"snap":{
+						"hit":false
+					},
+					"running":0,
+					"collection":null,
+					"shape":null
+				}
+			},
 			"name":"Scene",
 			"nodes":[
 				0
@@ -14,24 +24,21 @@
 	],
 	"nodes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"mesh":0,
 			"name":"teen27"
 		}
 	],
 	"materials":[
 		{
+			"alphaMode":"BLEND",
 			"doubleSided":true,
 			"extras":{
-				"dirt":0,
-				"transparency":1,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
+				"dirt":0
 			},
-			"name":"Material 1 (plant.png)",
+			"name":"Material_DoubleSideNoRecolor",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -42,6 +49,9 @@
 	],
 	"meshes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"name":"teen27",
 			"primitives":[
 				{
@@ -66,8 +76,8 @@
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"plant",
-			"uri":"plant.png"
+			"name":"objects",
+			"uri":"objects.png"
 		}
 	],
 	"accessors":[

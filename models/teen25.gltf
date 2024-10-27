@@ -1,11 +1,18 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.28",
+		"generator":"Khronos glTF Blender I/O v4.1.63",
 		"version":"2.0"
 	},
 	"scene":0,
 	"scenes":[
 		{
+			"extras":{
+				"bc":{
+					"snap":{
+						"hit":false
+					}
+				}
+			},
 			"name":"Scene",
 			"nodes":[
 				0
@@ -14,6 +21,9 @@
 	],
 	"nodes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"mesh":0,
 			"name":"teen25"
 		}
@@ -21,15 +31,9 @@
 	"materials":[
 		{
 			"extras":{
-				"dirt":1,
-				"recolor":"team",
-				"recolor_ref":[
-					0.039,
-					0.651,
-					0.996
-				]
+				"dirt":1
 			},
-			"name":"Material 1 (kid.png)",
+			"name":"teen25",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
@@ -40,6 +44,9 @@
 	],
 	"meshes":[
 		{
+			"extras":{
+				"hops":{}
+			},
 			"name":"teen25",
 			"primitives":[
 				{
@@ -64,15 +71,15 @@
 	"images":[
 		{
 			"mimeType":"image/png",
-			"name":"kid",
-			"uri":"kid.png"
+			"name":"objects",
+			"uri":"objects.png"
 		}
 	],
 	"accessors":[
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":714,
+			"count":723,
 			"max":[
 				15.163589477539062,
 				71.62200927734375,
@@ -88,19 +95,19 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":714,
+			"count":723,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":714,
+			"count":723,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5126,
-			"count":714,
+			"count":723,
 			"type":"VEC2"
 		},
 		{
@@ -113,32 +120,32 @@
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":8568,
+			"byteLength":8676,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":8568,
-			"byteOffset":8568,
+			"byteLength":8676,
+			"byteOffset":8676,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":5712,
-			"byteOffset":17136,
+			"byteLength":5784,
+			"byteOffset":17352,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":5712,
-			"byteOffset":22848,
+			"byteLength":5784,
+			"byteOffset":23136,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":2952,
-			"byteOffset":28560,
+			"byteOffset":28920,
 			"target":34963
 		}
 	],
@@ -150,7 +157,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":31512,
+			"byteLength":31872,
 			"uri":"teen25.bin"
 		}
 	]
