@@ -1,11 +1,18 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v3.6.27",
+		"generator":"Khronos glTF Blender I/O v4.2.57",
 		"version":"2.0"
 	},
 	"scene":0,
 	"scenes":[
 		{
+			"extras":{
+				"bc":{
+					"snap":{
+						"hit":false
+					}
+				}
+			},
 			"name":"Scene",
 			"nodes":[
 				0
@@ -20,10 +27,11 @@
 	],
 	"materials":[
 		{
+			"doubleSided":true,
 			"extras":{
 				"dirt":0
 			},
-			"name":"Material 1",
+			"name":"Material 1.005",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
 					"index":0
